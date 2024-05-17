@@ -1,0 +1,248 @@
+@import url("https://fonts.google.com/share?query=roboto");
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url("assets/IMAGES/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+    width: auto;
+}
+
+.main .box{
+    height: 644px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav{
+max-width: 60vw;
+justify-content: space-between;
+margin: auto;
+display: flex;
+align-items: center;
+height: 100px;
+} 
+
+nav img{
+    color: rgb(184, 12, 12);
+    width: 115px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    font-family: 'Martel Sans', sans-serif;
+    height: 437px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 22px;
+    padding:50px;
+}
+
+.hero> :first-child{
+    font-weight: 795;
+    font-size: 38px;
+    text-align: center;
+}
+
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.separation{
+       height: 7px;
+       background-color: rgb(79, 78, 78);
+       position: relative;
+       z-index: 20;
+}
+
+.btn{
+    padding: 3px 8px;
+    font-weight: 500;
+    color: white;
+    background-color: rgba(255, 254, 254, 0.009);
+    border: 1px solid rgba(255, 255, 255, 0.365);
+    border-radius: 5px;
+}
+
+
+
+.btn-red{
+    background-color:red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input{
+    padding: 7px 101px 8px 14px;
+    color: white;
+    font-weight: 300;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(254, 253, 253, 0.5) ;
+}
+
+.btn-red-sm{
+    background-color:red;
+    color: white;
+    cursor: pointer;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img{
+      width: 569px;
+      position: relative;
+      z-index: 10;
+      overflow-clip-margin: content-box;
+      overflow: clip;
+}
+
+.secImg video{
+    position: absolute;
+    top: 120px;
+    right: 0;
+   object-fit: cover;
+   overflow-clip-margin: content-box;
+    width: 500px;
+    left: 66px;
+
+}
+
+#vidio{
+    position: absolute;
+    top: 60px;
+    width: 350px;
+    left: 100px;
+}
+
+section.first>div{
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+.spanA{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.spanB{
+     font-size: 18px;
+}
+
+.faq  h2{
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq {
+     background: black;
+     color: white;
+     padding: 34px;
+}
+
+.faqbox:hover{
+    background-color: rgb(76, 75, 75);
+}
+
+.faqbox svg{
+    filter: invert(1);
+}
+
+.faqbox{
+    transition: all is ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+    display: block;
+}
+
+footer .questions{
+    display: block;
+    color: white;
+    flex: 0 0 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    width: inherit;
+}
+
+
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-item {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 23px;
+    flex-wrap: wrap;
+}
